@@ -3,7 +3,6 @@ import Navbar from "@/components/Navbar";
 import { Toaster } from "@/components/ui/toaster";
 import "./globals.css";
 import { Suspense } from "react";
-import { Analytics } from "@vercel/analytics/react";
 
 export const metadata = {
   title: "Headshots AI",
@@ -28,7 +27,6 @@ export default function RootLayout({ children }: any) {
         </main>
         <Footer />
         <Toaster />
-        <Analytics />
       </body>
     </html>
   );
