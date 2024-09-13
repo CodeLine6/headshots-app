@@ -121,7 +121,7 @@ export default function TrainModelZone() {
       }
     }
 
-    // console.log(blobUrls, "blobUrls");
+    console.log(blobUrls, "blobUrls");
 
     const payload = {
       urls: blobUrls,
